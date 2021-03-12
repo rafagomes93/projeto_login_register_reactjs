@@ -1,0 +1,15 @@
+.container{
+    width: 100%;
+    padding: 8rem 15.5rem;
+    line-height: 80px;
+}
+
+h2{
+    font-size: 100px;
+    color: #fff;
+}
+
+h3{
+    font-size: 90px;
+    color: #0071db;
+}
