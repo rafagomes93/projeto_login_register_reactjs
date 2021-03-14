@@ -26,7 +26,7 @@ class Register extends Component{
             const {nome, email, password} = this.state;
 
             await firebase.register(nome, email, password);
-
+            //Após cadastro, o usuário é logado automaticamente.
             this.props.history.replace('/dashboard');
 
         }catch(error){
